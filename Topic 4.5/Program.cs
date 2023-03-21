@@ -109,10 +109,9 @@ namespace Topic_4._5
 
         public static void knockKnockJoke()
         {
-            int i = 1;
             Console.WriteLine("Knock Knock");
             Thread.Sleep(500);
-            while (i == 1)
+            while (true)
             {
                 Console.WriteLine("Whos there?");
                 Thread.Sleep(500);
